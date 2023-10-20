@@ -1,0 +1,40 @@
+.container{
+   display: flex;
+   flex-direction: column;
+  
+   width: 75%;
+   margin: auto;
+}
+.mainbox{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    
+  
+}
+.mainbox div{
+    width: 25%;
+    margin: 20px;
+    border-color: #1803ff;
+    box-shadow: 0px 0px 3px 0px grey;
+    overflow-y: hidden;
+    height: 400px;
+}
+.mainbox > div> Image{
+   height: 20px;
+   width: 20px;
+
+}
+.mainbox > div>p>span{
+    color: #0389ff;
+}
+.filters button{
+    background-color: #0389FF;
+    color: white;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin: 10px;
+    margin-left: 10px;
+    border: none;
+}
